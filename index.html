@@ -4,75 +4,120 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="build/css/style.css">
 	<script src="https://kit.fontawesome.com/70a6120e49.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous" />
 	<title>Document</title>
 </head>
 <body>
 	<section class="menu">
-		<nav class="navbar container navbar-expand-lg navbar-light d-flex">
-			<a class="navbar-brand" href="#">
-			  	<img class="menu__img" src="image/Menu/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-			    Waxom
-			 </a>
+		<nav class="navbar navbar-expand-lg navbar-light d-flex fixed-top">
+			<a class="navbar-brand navbar__logo d-flex" href="#">
+				<img class="menu__img" src="image/Menu/icons/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+				<div class="navbar__title">Waxom</div>
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-		  	<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-		    	<ul class="navbar-nav">
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Home</a>
-			      	</li>
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">About Us</a>
-			     	</li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Portfolio</a>
-				    </li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Features</a>
-				    </li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Blog</a>
-				    </li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Pricing</a>
-				    </li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Shortcodes</a>
-				    </li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Contact</a>
-				    </li>
-				    <li>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#features">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#blog">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#pricing">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#shortcodes">Shortcodes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+					<li>
 						<a href="#">
 							<div class="icon__block push">
-								<img src="image/Menu/package.png" alt="">
+								<img src="image/Menu/icons/package.png" alt="">
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
 							<div class="icon__block">
-								<img src="image/Menu/search.png" alt="">
+								<img src="image/Menu/icons/search.png" alt="">
 							</div>
 						</a>
 					</li>
-			    </ul>
+				</ul>
 			</div>
 		</nav>
-		<div class="container">
-			<div class="menu__text">
-				<div class="menu__pretitle">Unique and Modern Design</div>
-				<div class="menu__title">Portfolio PSD Template</div>
-				<div class="menu__suptitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-
-					<P>diet doming id quod mazim placerat facer possim assum.</P></div>
-				<button class="menu__button text-uppercase">get started</button>
+		<div class="slickSlaider">
+			<div class="slaider__one">
+				<div class="slaider__size__img">
+					<div class="menu__text">
+						<div class="menu__pretitle">Unique and Modern Design</div>
+						<div class="menu__title">Portfolio PSD Template</div>
+						<div class="menu__suptitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<P>diet doming id quod mazim placerat facer possim assum.</P></div>
+						<button class="menu__button text-uppercase">get started</button>
+					</div>
+				</div>
 			</div>
-		</div>
+			<div class="slaider__two">
+				<div class="slaider__size__img">				
+					<div class="menu__text">
+						<div class="menu__pretitle">Unique and Modern Design</div>
+						<div class="menu__title">Portfolio PSD Template</div>
+						<div class="menu__suptitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<P>diet doming id quod mazim placerat facer possim assum.</P></div>
+						<button class="menu__button text-uppercase">get started</button>
+					</div>
+				</div>
+			</div>
+			<div class="slaider__three">
+				<div class="slaider__size__img">					
+					<div class="menu__text">
+						<div class="menu__pretitle">Unique and Modern Design</div>
+						<div class="menu__title">Portfolio PSD Template</div>
+						<div class="menu__suptitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<P>diet doming id quod mazim placerat facer possim assum.</P></div>
+						<button class="menu__button text-uppercase">get started</button>
+					</div>
+				</div>
+			</div>
+			<div class="slaider__four">
+				<div class="slaider__size__img">					
+					<div class="menu__text">
+						<div class="menu__pretitle">Unique and Modern Design</div>
+						<div class="menu__title">Portfolio PSD Template</div>
+						<div class="menu__suptitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<P>diet doming id quod mazim placerat facer possim assum.</P></div>
+						<button class="menu__button text-uppercase">get started</button>
+					</div>
+				</div>
+			</div>
+			<div class="slaider__five">
+				<div class="slaider__size__img">					
+					<div class="menu__text">
+						<div class="menu__pretitle">Unique and Modern Design</div>
+						<div class="menu__title">Portfolio PSD Template</div>
+						<div class="menu__suptitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<P>diet doming id quod mazim placerat facer possim assum.</P></div>
+						<button class="menu__button text-uppercase">get started</button>
+					</div>
+				</div>
+			</div>
+		</div>			
 	</section>
 
-	<section class="activity d-flex align-items-center justify-content-center">
+	<section class="activity d-flex align-items-center justify-content-center" id="about">
 		<div class="container">
 			<div class="row activity__box">
 				<div class="activity__block col-md-3 d-flex flex-column text-center">
@@ -118,17 +163,26 @@
 			</div>
 		</div>
 	</section>
-	<section class="demonstration">
+
+	<section class="demonstration" id="portfolio">
 		<div class="container">
 			<div class="d-flex flex-column text-center">
 				<div class="demonstration__title">Waxom is Realization of your Ideas.</div>
 				<div class="demonstration__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam <P>processus dynamicus, qui sequitur mutationem consuetudium.</P></div>
 			</div>
-			<div class="demonstration__image__block d-flex">					
-				<img class="demonstration__image-left" src="image/Demonstration/demo-left.png">				
-				<img class="demonstration__image-right" src="image/Demonstration/demo-right.png">
-				<img class="demonstration__image-center" src="image/Demonstration/demo-center.png">
-			</div>	
+		</div>
+		<div class="container__slider">
+			<div class="rev_slider">
+				<div class="rev_slide">
+					<img class="test" src="image/Demonstration/demo-left.png">	
+				</div>
+				<div class="rev_slide">
+					<img class="test" src="image/Demonstration/demo-right.png">
+				</div>
+				<div class="rev_slide">
+					<img class="test" src="image/Demonstration/demo-center.png">
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -146,7 +200,7 @@
 		</div>
 	</section>
 
-	<section class="projects">
+	<section class="projects" id="features">
 		<div class="container">
 			<div class="projects__info d-flex flex-column text-center">
 				<div class="projects__title">Our Latest Projects.</div>
@@ -161,7 +215,7 @@
 			</div>
 			<div class="projects__box row">
 				<div class="projects__block col-8 col-sm-5 col-md-4 col-lg-4 col-xl-4">
-					<div class="projects__img">
+					<div class="projects__img recent__shadow__img">
 						<img class="img__size" src="image/Projects/p1.png">
 					</div>
 					<div class="projects__box__info">
@@ -170,7 +224,7 @@
 					</div>
 				</div>
 				<div class="projects__block col-8 col-sm-5 col-md-4 col-lg-4 col-xl-4">
-					<div class="projects__img">
+					<div class="projects__img recent__shadow__img">
 						<img class="img__size" src="image/Projects/p2.png">
 					</div>
 					<div class="projects__box__info">
@@ -179,7 +233,7 @@
 					</div>
 				</div>
 				<div class="projects__block col-8 col-sm-5 col-md-4 col-lg-4 col-xl-4">
-					<div class="projects__img">
+					<div class="projects__img recent__shadow__img">
 						<img class="img__size" src="image/Projects/p3.png">
 					</div>
 					<div class="projects__box__info">
@@ -188,7 +242,7 @@
 					</div>
 				</div>
 				<div class="projects__block col-8 col-sm-5 col-md-4 col-lg-4 col-xl-4">
-					<div class="projects__img">
+					<div class="projects__img recent__shadow__img">
 						<img class="img__size" src="image/Projects/p4.png">
 					</div>
 					<div class="projects__box__info">
@@ -197,7 +251,7 @@
 					</div>
 				</div>
 				<div class="projects__block col-8 col-sm-5 col-md-4 col-lg-4 col-xl-4">
-					<div class="projects__img">
+					<div class="projects__img recent__shadow__img">
 						<img class="img__size" src="image/Projects/p5.png">
 					</div>
 					<div class="projects__box__info">
@@ -206,7 +260,7 @@
 					</div>
 				</div>
 				<div class="projects__block col-8 col-sm-5 col-md-4 col-lg-4 col-xl-4">
-					<div class="projects__img">
+					<div class="projects__img recent__shadow__img">
 						<img class="img__size" src="image/Projects/p6.png">
 					</div>
 					<div class="projects__box__info">
@@ -221,7 +275,7 @@
 		</div>
 	</section>
 
-	<section class="video">
+	<section class="video" id="blog">
 		<div class="container">
 			<div class="video__box d-flex flex-column text-center">
 				<div class="d-flex justify-content-center align-items-center">
@@ -325,17 +379,17 @@
 		</div>
 	</section>
 
-	<section class="recent">
+	<section class="recent" id="pricing">
 		<div class="container">
 			<div class="d-flex flex-column text-center recent__info">
 				<div class="recent__title">Recent Posts.</div>
 				<div class="recent__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam <p>processus dynamicus, qui sequitur mutationem consuetudium.</p></div>
 			</div>
-			<div class="row recent__box">
-				<div class="col-4 recent__block">
+			<div class="row recent__box slaiderSlick">
+				<div class="recent__block">
 					<div class="recent__border">
 						<div class="recent__block__top">
-							<div>	
+							<div class="recent__shadow__img">	
 								<img class="recent__img" src="image/Recent/p1.png">
 							</div>
 							<div class="recent__calendar text-center">
@@ -352,15 +406,15 @@
 									<div class="recent__arrow" href="">
 										<i class="fas fa-caret-right"></i>
 									</div>
-							    </div>
+								</div>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="col-4 recent__block">
+				<div class="recent__block">
 					<div class="recent__border">
 						<div class="recent__block__top">
-							<div>	
+							<div class="recent__shadow__img">	
 								<img class="recent__img" src="image/Recent/p2.png">
 							</div>
 							<div class="recent__calendar text-center">
@@ -377,15 +431,15 @@
 									<div class="recent__arrow" href="">
 										<i class="fas fa-caret-right"></i>
 									</div>
-							    </div>
+								</div>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="col-4 recent__block">
+				<div class="recent__block">
 					<div class="recent__border">
 						<div class="recent__block__top">
-							<div>	
+							<div class="recent__shadow__img">	
 								<img class="recent__img" src="image/Recent/p3.png">
 							</div>
 							<div class="recent__calendar text-center">
@@ -402,20 +456,91 @@
 									<div class="recent__arrow" href="">
 										<i class="fas fa-caret-right"></i>
 									</div>
-							    </div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="recent__block">
+					<div class="recent__border">
+						<div class="recent__block__top">
+							<div class="recent__shadow__img">	
+								<img class="recent__img" src="image/Recent/p4.jpg">
+							</div>
+							<div class="recent__calendar text-center">
+								<div class="recent__number">30</div>
+								<div class="recent__date">Sep.</div>
+							</div>
+						</div>
+						<div class="recent__block__bottom">
+							<div class="recent__block__title">Lorem ipsum dolor sit amet</div>
+							<div class="recent__block__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</div>
+							<a href="">
+								<div class="recent__link d-flex">
+									<div class="recent__link__text">Read More</div>
+									<div class="recent__arrow" href="">
+										<i class="fas fa-caret-right"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="recent__block">
+					<div class="recent__border">
+						<div class="recent__block__top">
+							<div class="recent__shadow__img">	
+								<img class="recent__img" src="image/Recent/p5.jpg">
+							</div>
+							<div class="recent__calendar text-center">
+								<div class="recent__number">30</div>
+								<div class="recent__date">Sep.</div>
+							</div>
+						</div>
+						<div class="recent__block__bottom">
+							<div class="recent__block__title">Lorem ipsum dolor sit amet</div>
+							<div class="recent__block__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</div>
+							<a href="">
+								<div class="recent__link d-flex">
+									<div class="recent__link__text">Read More</div>
+									<div class="recent__arrow" href="">
+										<i class="fas fa-caret-right"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="recent__block">
+					<div class="recent__border">
+						<div class="recent__block__top">
+							<div class="recent__shadow__img">	
+								<img class="recent__img" src="image/Recent/p6.jpg">
+							</div>
+							<div class="recent__calendar text-center">
+								<div class="recent__number">30</div>
+								<div class="recent__date">Sep.</div>
+							</div>
+						</div>
+						<div class="recent__block__bottom">
+							<div class="recent__block__title">Lorem ipsum dolor sit amet</div>
+							<div class="recent__block__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</div>
+							<a href="">
+								<div class="recent__link d-flex">
+									<div class="recent__link__text">Read More</div>
+									<div class="recent__arrow" href="">
+										<i class="fas fa-caret-right"></i>
+									</div>
+								</div>
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="d-flex justify-content-center align-items-center mt-5 recent__block__btn">
-				<button class="recent__btn pr-2 mr-1 d-flex justify-content-center align-items-center"><i class="fas fa-chevron-left iu"></i></button>
-				<button class="recent__btn pl-2 ml-1 d-flex justify-content-center align-items-center"><i class="fas fa-chevron-right iu"></i></button>
-			</div>
 		</div>
 	</section>
 
-	<section class="partners">
+	<section class="partners" id="shortcodes">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-3">
@@ -434,7 +559,7 @@
 		</div>
 	</section>
 
-	<section class="contacts">
+	<section class="contacts" id="contact">
 		<div class="container">
 			<div class="row contacts__box">
 				<div  class="col-3 contacts__block__logo">
@@ -524,5 +649,9 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+
+	
 </body>
 </html>
