@@ -239,6 +239,31 @@ a {
   border-radius: 50%;
 }
 
+#slick-slide-control00::before {
+  color: #979594;
+  opacity: 1;
+}
+
+#slick-slide-control01::before {
+  color: #979594;
+  opacity: 1;
+}
+
+#slick-slide-control02::before {
+  color: #979594;
+  opacity: 1;
+}
+
+#slick-slide-control03::before {
+  color: #979594;
+  opacity: 1;
+}
+
+#slick-slide-control04::before {
+  color: #979594;
+  opacity: 1;
+}
+
 /*Section Activity*/
 .activity {
   margin: 90px 0;
