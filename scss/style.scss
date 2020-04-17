@@ -234,7 +234,7 @@ a{
 }
 /*Section Activity*/
 .activity {
-	margin: 90px 0;
+	margin: 200px 0 90px;
 }
 .activity__img {
 	height: 30px;
@@ -536,6 +536,8 @@ a{
 }
 .recent__block {
 	padding: 14px;
+	width: 30% !important;
+	display: flex !important;
 }
 .recent__border {
 	border: 1px solid #f8f8f8;
