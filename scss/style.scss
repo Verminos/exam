@@ -210,7 +210,7 @@ a{
 .all__dots li.slick-active button:before {
 	opacity: 1;
 	border: 3px solid #d3c1ad;
-	color: transparent;
+	color: transparent !important;
 	border-radius: 50%;
 }
 #slick-slide-control00::before {
