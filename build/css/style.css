@@ -16,6 +16,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -33,13 +34,13 @@ a {
   margin: 0 auto;
 }
 
-/*Section Menu*/
+/*Section Menu Begin*/
 .menu {
   height: 100vh;
   text-align: center;
 }
 
-.slaider__size__img {
+.slider__size__img {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -47,31 +48,31 @@ a {
   text-align: center;
 }
 
-.slaider__one {
+.slider__one {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/Menu/bg/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.slaider__two {
+.slider__two {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/Menu/bg/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.slaider__three {
+.slider__three {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/Menu/bg/bg3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.slaider__four {
+.slider__four {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/Menu/bg/bg4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.slaider__five {
+.slider__five {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/Menu/bg/bg5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,7 +265,8 @@ a {
   opacity: 1;
 }
 
-/*Section Activity*/
+/*Section Menu End*/
+/*Section Activity Begin*/
 .activity {
   margin: 200px 0 90px;
 }
@@ -303,7 +305,8 @@ a {
   border-bottom: 2px solid #c7b299;
 }
 
-/*Section Demonstration*/
+/*Section Activity End*/
+/*Section Demonstration Begin*/
 .demonstration {
   background-color: #fbfaf8;
 }
@@ -316,75 +319,7 @@ a {
   margin: 80px 0 20px;
 }
 
-.container__slider {
-  width: 900px;
-  margin: 0 auto;
-  max-width: 80%;
-}
-
-.slick-slider {
-  margin-left: -12%;
-  margin-right: -12%;
-}
-
-.slick-list {
-  padding-top: 5% !important;
-  padding-bottom: 5% !important;
-  padding-left: 15% !important;
-  padding-right: 15% !important;
-}
-
-.slick-track {
-  max-width: 100% !important;
-  transform: translate3d(0, 0, 0) !important;
-  perspective: 100px;
-}
-
-.slick-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  opacity: 0;
-  width: 100% !important;
-  transform: translate3d(0, 0, 0);
-  transition: transform 1s, opacity 1s;
-}
-
-.slick-snext,
-.slick-sprev {
-  display: block;
-}
-
-.slick-current {
-  opacity: 1;
-  position: relative;
-  display: block;
-  transform: translate3d(0, 0, 12px);
-  z-index: 2;
-}
-
-.slick-snext {
-  opacity: 1;
-  transform: translate3d(20%, 0, 0px);
-  z-index: 1;
-}
-
-.slick-sprev {
-  opacity: 1;
-  transform: translate3d(-20%, 0, 0px);
-}
-
-.test {
-  display: block;
-  width: 100%;
-  height: 450px;
-  background: #c00;
-  box-shadow: inset 0px 0px 0px 3px #000;
-}
-
+/*Section Demonstration End*/
 /*Section Purchase*/
 .purchase {
   background: linear-gradient(to right, #211b19, #4e3427);

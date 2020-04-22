@@ -46,7 +46,7 @@ rev.slick({
 });
 
 $(document).ready(function(){
-	$('.slickSlaider').slick({
+	$('.menu__slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
@@ -58,7 +58,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$('.slaiderSlick').slick({
+	$('.recent__slider').slick({
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: true,
